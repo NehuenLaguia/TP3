@@ -49,7 +49,8 @@ header img{
 
 /* HERO */
 .hero{
-    background-image: url(perrohero.jpg);
+    background-size: cover;
+    background-image: url(perrohero1.png);
     height: 92vh;
     
 }
@@ -209,6 +210,33 @@ header img{
     width: 40%;
     height: 100%;
     cursor: pointer;
+}
+/* FIN MANUAL */
+
+
+/* SAMOYED */
+
+.samoyed{
+    background-image: url(Samoyed4.png);
+    background-size: cover;
+    height: 70vh;
+}
+
+.wem{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    
+}
+
+.wem h1{
+    position: relative;
+    width: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    left: 125vh;
 }
 
 
