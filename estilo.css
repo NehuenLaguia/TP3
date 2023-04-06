@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    width: 200vh;
+    
+}
+
+/* HEADER */
+header{
+    display: flex;
+    background-color: white;
+    align-items: end;
+    justify-content: space-around;
+    height: 8vh;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.logo{
+    width: 8%;
+    padding-left: 1vh;
+}
+
+header img{
+    height: 100%;
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.menu{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+/* FIN HEADER */
+
+
+/* HERO */
+.hero{
+    background-image: url(perrohero.jpg);
+    height: 92vh;
+    
+}
+
+.divhero{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    height: 42%;
+    gap: 30px;
+    position: absolute;
+    left: 30vh;
+    top: 25vh;
+    
+
+}
+
+.divhero h1{
+    font-size: 80px;
+}
+
+.divhero p{
+    font-size: 25px;
+    
+}
+
+.divhero button{
+    width: 35%;
+    height: 25%;
+    color: #f53a50;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* FIN HERO */
+
+
+/* PRODUCTOS */
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200vh;
+    height: 100vh;
+    gap: 90px;
+    align-items: center;
+
+}
+
+.products h1{
+    display: flex;
+    justify-content: center;
+    color: #f53a50;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.products h2{
+    font-size: 20px;
+    color: #f53a50;
+}
+
+
+.sell{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; 
+    height: 60%;
+    
+}
+.venta{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 40px;
+}
+
+.venta img{
+    width: 100%;
+    height: 40%;
+    border-color: #f53a50;
+    border-radius: 10px;
+}
+
+.venta button{
+    width: 60%;
+    height: 8%;
+    background-color: #f53a50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+/* FIN PRODUCTOS */
+
+
+/* MANUAL */
+
+.manual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(to right, rgb(178,21,100), rgb(241,54,81));
+    
+}
+
+.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 60%;
+}
+
+.books h1{
+    font-weight: 800;
+    font-size: 55px;
+    color: white;
+}
+
+.pbooks{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pbooks p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 75%;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.botonbooks{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonbooks button{
+    color: #f53a50;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
