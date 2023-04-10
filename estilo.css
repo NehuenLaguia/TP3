@@ -397,8 +397,10 @@ header img{
 
 .garra{
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
+    left: 20vh;
+    bottom: 5vh;
 }
 
 /* FIN REVIEWS */
@@ -443,7 +445,6 @@ header img{
     align-items: center;
     height: 50vh;
     background: linear-gradient(to right, rgb(178,21,100), rgb(241,54,81));
-    
     
 }
 
@@ -588,6 +589,44 @@ header img{
     border-radius: 10px;
     cursor: pointer;
 }
+/* FIN CONTACT */
+
+/* FOOTER */
+footer{
+    height: 20vh;
+    background: linear-gradient(to right, rgb(178,21,100), rgb(241,54,81));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.iconos{
+    width: 8%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.perrofondo{
+    position: absolute;
+    left: 15vh;
+    width: 20%;
+}
+
+.fondopag{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #f53a50;
+}
+.ig{
+    color: white;
+}
+/* FIN FOOTER */
+
 
 /* ANIMACIONES */
 
@@ -612,4 +651,8 @@ header img{
 
 .animacion3:hover{
     color: gray;
+}
+
+.ig:hover{
+    font-size: 30px;
 }
