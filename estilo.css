@@ -347,7 +347,7 @@ header img{
 .Reviews{
     background-color: rgb(255,244,246);
     position: relative;
-    z-index: -2; 
+    /* z-index: -2;  */
     height: 70vh;
     display: flex;
     justify-content: center;
@@ -376,9 +376,13 @@ header img{
 .textos{
     width: 17%;
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
+    
+    
 }
+
+
 
 .Reviews p{
     display: flex;
